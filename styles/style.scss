@@ -30,7 +30,7 @@ a {
 
   &__nav {
   }
-  @media (max-width: 1024px) {
+  @media (max-width: 768px) {
     &__nav {
       display: none;
     }
@@ -92,7 +92,7 @@ a {
   border-radius: 41px;
   padding: 40px;
   background-color: #fff;
-  min-width: 900px;
+  min-width: 768px;
   // .about__title
 
   &__title {
