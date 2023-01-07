@@ -30,7 +30,11 @@ a {
 
   &__nav {
   }
-
+  @media (max-width: 768px) {
+    &__nav {
+      display: none;
+    }
+  }
   // .header__list
 
   &__list {
@@ -85,11 +89,10 @@ a {
 .about {
   margin: 0 auto;
   align-items: center;
-  min-width: 500px;
-  max-width: 1110px;
   border-radius: 41px;
   padding: 40px;
   background-color: #fff;
+  min-width: 768px;
   // .about__title
 
   &__title {
