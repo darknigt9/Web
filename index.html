@@ -5,14 +5,69 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Saprykin</title>
+    <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
     <header class="header">
-      <div class="logo">
-        <a class="logo__link" href="#"
-          ><img class="logo__img" src="images/logo.svg" alt="logo"
-        /></a>
+      <div class="container">
+        <div class="logo">
+          <a class="logo__link" href="#"
+            ><img class="logo__img" src="images/logo.svg" alt="logo"
+          /></a>
+        </div>
+        <nav class="header__nav">
+          <ul class="header__list">
+            <li class="header__item">
+              <a class="header__link" href="#">about</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#">projects</a>
+            </li>
+            <li class="header__item header__item--active">
+              <a class="header__link" href="#">get in touch</a>
+            </li>
+          </ul>
+        </nav>
       </div>
     </header>
+    <main class="main">
+      <section class="about">
+        <h1 class="about__title">Hello!</h1>
+        <p class="about__text">
+          I'm Amanda, and I currently attend UBC for engineering. Welcome to my
+          first web dev project 😎
+        </p>
+        <div class="wrapper">
+          <ul class="about__list list-left">
+            <li class="about__item">
+              <a class="about__link" href="#"
+                ><img src="images/vk.svg" alt="social vk" class="about__img"
+              /></a>
+            </li>
+            <li class="about__item">
+              <a class="about__link" href="#"
+                ><img src="images/figma.svg" alt="social vk" class="about__img"
+              /></a>
+            </li>
+            <li class="about__item">
+              <a class="about__link" href="#"
+                ><img
+                  src="images/github.svg"
+                  alt="social vk"
+                  class="about__img"
+              /></a>
+            </li>
+          </ul>
+          <ul class="about__list list-right">
+            <li class="about__item">
+              <a class="about__link" href="#">view projects</a>
+            </li>
+            <li class="about__item">
+              <a class="about__link" href="#">get in touch</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
