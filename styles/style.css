@@ -68,7 +68,7 @@ a {
   font-style: italic;
   font-weight: inherit;
 }
-.about {
+.hello {
   margin: 0 auto;
   align-items: center;
   border-radius: 41px;
@@ -76,18 +76,42 @@ a {
   background-color: #fff;
   min-width: 576px;
 }
-.about__title {
+.hello__title {
   color: black;
 }
-.about__text {
+.hello__text {
   color: black;
 }
-.about__list {
+.hello__list {
   display: flex;
+  align-items: center;
 }
-.about__link {
-  color: black;
+.hello__link {
+  text-align: center;
+  color: rgb(0, 0, 0);
 }
+.hello__item--white {
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  padding: 10px;
+  max-height: 30px;
+  background-color: #fff;
+  border: 1px solid black;
+}
+.hello__item--black {
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  padding: 10px;
+  max-height: 30px;
+  background-color: rgb(0, 0, 0);
+  border: 1px solid black;
+}
+.hello__item--black a {
+  color: #fff;
+}
+
 .wrapper {
   display: flex;
   justify-content: space-between;

@@ -86,7 +86,7 @@ a {
 }
 .main {
 }
-.about {
+.hello {
   margin: 0 auto;
   align-items: center;
   border-radius: 41px;
@@ -109,6 +109,7 @@ a {
 
   &__list {
     display: flex;
+    align-items: center;
   }
 
   // .about__item
@@ -119,12 +120,37 @@ a {
   // .about__link
 
   &__link {
-    color: black;
+    text-align: center;
+    color: rgb(0, 0, 0);
   }
 
   // .about__img
 
   &__img {
+  }
+  &__item--white {
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    padding: 10px;
+    max-height: 30px;
+    background-color: #fff;
+    border: 1px solid black;
+  }
+
+  // .hello__item--black
+
+  &__item--black {
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    padding: 10px;
+    max-height: 30px;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid black;
+  }
+  &__item--black a {
+    color: #fff;
   }
 }
 .wrapper {
