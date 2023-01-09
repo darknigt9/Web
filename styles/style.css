@@ -109,7 +109,7 @@ a {
   border: 1px solid black;
 }
 .hello__item--black a {
-  color: #fff;
+  color: rgb(220, 215, 215);
 }
 
 .wrapper {
