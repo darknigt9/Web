@@ -70,12 +70,11 @@ a {
   font-weight: inherit;
 }
 .hello {
-  margin: 0 15px;
+  margin: 0 10px;
   align-items: center;
   border-radius: 41px;
   padding: 40px;
   background-color: #fff;
-  min-width: 576px;
 }
 .hello__title {
   color: black;
