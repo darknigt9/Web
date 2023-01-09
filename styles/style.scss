@@ -163,3 +163,8 @@ a {
 .list-right {
   gap: 25px;
 }
+@media (max-width: 576px) {
+  body {
+    font-size: 16px;
+  }
+}
