@@ -32,7 +32,7 @@ a {
 .header {
   border-bottom: 1px solid rgb(39, 45, 43);
 }
-@media (max-width: 576px) {
+@media (max-width: 756px) {
   .header__nav {
     display: none;
   }
@@ -123,7 +123,7 @@ a {
   gap: 25px;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 756px) {
   * {
     font-size: 18px;
   }

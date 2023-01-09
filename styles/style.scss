@@ -30,7 +30,7 @@ a {
 
   &__nav {
   }
-  @media (max-width: 576px) {
+  @media (max-width: 756px) {
     &__nav {
       display: none;
     }
@@ -164,7 +164,7 @@ a {
 .list-right {
   gap: 25px;
 }
-@media (max-width: 576px) {
+@media (max-width: 756px) {
   * {
     font-size: 18px;
   }
