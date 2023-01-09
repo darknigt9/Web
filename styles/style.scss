@@ -136,6 +136,7 @@ a {
     max-height: 30px;
     background-color: #fff;
     border: 1px solid black;
+    font-size: 18px;
   }
 
   // .hello__item--black
@@ -164,7 +165,7 @@ a {
   gap: 25px;
 }
 @media (max-width: 576px) {
-  body {
+  * {
     font-size: 18px;
   }
 }
