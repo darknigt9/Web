@@ -6,7 +6,7 @@ html {
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 18px;
   margin: 0;
   background-color: #1e1e1e;
   color: #fff;
@@ -71,6 +71,7 @@ a {
 }
 .hello {
   margin: 0 10px;
+  min-width: 540px;
   align-items: center;
   border-radius: 41px;
   padding: 40px;
