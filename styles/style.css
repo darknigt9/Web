@@ -75,6 +75,7 @@ a {
   border-radius: 41px;
   padding: 40px;
   background-color: #fff;
+  min-width: 520px;
 }
 .hello__title {
   color: black;
@@ -98,7 +99,6 @@ a {
   max-height: 30px;
   background-color: #fff;
   border: 1px solid black;
-  font-size: 18px;
 }
 .hello__item--black {
   display: flex;
