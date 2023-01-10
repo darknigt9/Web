@@ -6,7 +6,7 @@ html {
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 20px;
   margin: 0;
   background-color: #1e1e1e;
   color: #fff;
@@ -71,7 +71,6 @@ a {
 }
 .hello {
   margin: 0 10px;
-  min-width: 540px;
   align-items: center;
   border-radius: 41px;
   padding: 40px;
@@ -113,12 +112,6 @@ a {
 .hello__item--black a {
   color: rgb(220, 215, 215);
 }
-@media (max-width: 756px) {
-  .hello .hello {
-    margin-left: 15px;
-    margin-top: 15px;
-  }
-}
 
 .wrapper {
   display: flex;
@@ -126,6 +119,17 @@ a {
   gap: 15px;
 }
 
+@media (max-width: 756px) {
+  .list-left {
+    flex-wrap: wrap;
+  }
+}
 .list-right {
   gap: 25px;
+}
+
+@media (max-width: 756px) {
+  .list-right {
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=style.css.map */

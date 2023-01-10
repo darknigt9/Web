@@ -111,10 +111,7 @@ a {
   &__list {
     display: flex;
     align-items: center;
-  }
-
-  // .about__item
-
+  } // .about__item
   &__item {
   }
 
@@ -154,12 +151,6 @@ a {
   &__item--black a {
     color: rgb(220, 215, 215);
   }
-  @media (max-width: 756px) {
-    .hello {
-      margin-left: 15px;
-      margin-top: 15px;
-    }
-  }
 }
 .wrapper {
   display: flex;
@@ -168,6 +159,16 @@ a {
 }
 .list-left {
 }
+@media (max-width: 756px) {
+  .list-left {
+    flex-wrap: wrap;
+  }
+}
 .list-right {
   gap: 25px;
+}
+@media (max-width: 756px) {
+  .list-right {
+    flex-direction: column;
+  }
 }
