@@ -85,6 +85,21 @@ a {
 }
 
 /******************************** About section ****************************/
+.about {
+  display: flex;
+  justify-content: center;
+  gap: 45px;
+  padding: 4vw 0.625em 0;
+}
+.about__title {
+  margin: 0;
+  margin-top: 16px;
+}
+.about__desc {
+  max-width: 535px;
+  margin: 0 auto;
+}
+
 .menu__btn {
   display: none;
 }
@@ -112,5 +127,15 @@ a {
   .logo__img {
     width: 170px;
     height: 35px;
+  }
+  .about {
+    flex-direction: column;
+    gap: 0;
+  }
+  .about__title {
+    text-align: center;
+  }
+  .about__desc {
+    text-align: center;
   }
 }/*# sourceMappingURL=style.css.map */
