@@ -89,6 +89,7 @@ a {
 .container-s {
   max-width: 1110px;
   margin: 0 auto;
+  padding: 4vw 0.625em 0;
 }
 
 /******************************** Hello section ****************************/
@@ -152,11 +153,11 @@ a {
   display: flex;
   justify-content: center;
   gap: 45px;
-  padding: 4vw 0.625em 0;
+
   // .about__title
 
   &__title {
-    margin: 0;
+    text-transform: uppercase;
     margin-top: 16px;
   }
 
@@ -164,7 +165,38 @@ a {
 
   &__desc {
     max-width: 535px;
-    margin: 0 auto;
+  }
+}
+.interests {
+  text-align: center;
+  // .interests__title
+
+  &__title {
+    text-transform: uppercase;
+  }
+
+  // .interests__text
+
+  &__text {
+  }
+
+  // .interests__items
+
+  &__items {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  // .interests__item
+
+  &__item {
+    flex-basis: 32%;
+    border-radius: 20px;
+    padding: 40px;
+    background-color: rgba(39, 45, 43, 1);
   }
 }
 
@@ -210,7 +242,28 @@ a {
       text-align: center;
     }
     &__desc {
+      margin: 0 auto;
       text-align: center;
+    }
+  }
+  .interests {
+    &__items {
+      margin: 0 auto;
+    }
+    &__item {
+      padding: 20px;
+      flex-basis: 48%;
+    }
+  }
+}
+@media (max-width: 480px) {
+  .interests {
+    &__items {
+      gap: 7px;
+    }
+    &__item {
+      padding: 10px;
+      flex-basis: 45%;
     }
   }
 }
