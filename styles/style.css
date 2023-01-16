@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap");
 :root {
   font-size: 1em;
-  --size-heading: 1.5rem;
 }
 
 html {
@@ -36,7 +35,7 @@ a {
 
 /******************************** Container section ***************************/
 .container-m {
-  max-width: 1220px;
+  max-width: 1440px;
   margin: 0 auto;
   padding: 0.75em 0.625em 0;
 }
@@ -70,4 +69,43 @@ a {
   border-radius: 1.875em;
   margin: 11.55em 0.625em 0;
 }
-/******************************** About section ****************************//*# sourceMappingURL=style.css.map */
+.hello__list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-right {
+  margin-left: 1em;
+}
+
+/******************************** About section ****************************/
+.menu__btn {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .menu__btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 45px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  .menu__btn span {
+    height: 3px;
+    width: 100%;
+    background-color: #fff;
+  }
+  .header__list {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */
