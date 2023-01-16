@@ -72,17 +72,31 @@ a {
 }
 .hello__list {
   display: flex;
-  gap: 20px;
   flex-wrap: wrap;
 }
+.hello__item--white {
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 20px;
+  padding: 5px 10px;
+  text-align: center;
+  text-transform: uppercase;
+  min-width: 140px;
+}
+
 .list {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+.list-left {
+  gap: 3px;
+}
+
 .list-right {
-  margin-left: 1em;
+  display: flex;
+  gap: 18px;
+  justify-content: center;
 }
 
 /******************************** About section ****************************/
