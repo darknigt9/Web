@@ -95,9 +95,9 @@ a {
 .hello {
   background-color: #fff;
   color: black;
-  padding: 5.93em;
+  padding: 5vw;
   border-radius: 1.875em;
-  margin: 11.55em 0.625em 0;
+  margin: 5vw 0.625em 0;
   // .hello__title
 
   &__title {
@@ -183,7 +183,15 @@ a {
       background-color: #fff;
     }
   }
-  .header__list {
-    display: none;
+  .header {
+    &__list {
+      display: none;
+    }
+  }
+  .logo {
+    &__img {
+      width: 170px;
+      height: 35px;
+    }
   }
 }
